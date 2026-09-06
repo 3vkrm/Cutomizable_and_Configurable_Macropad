@@ -3,7 +3,7 @@
 A custom programmable macropad featuring a 3x3 key matrix, 2 rotary encoders, and an OLED display. Powered by a Raspberry Pi Pico running CircuitPython and KMK Keyboard Firmware, this project includes a local web interface to reconfigure keys, macros, and settings.
 
 <p align="center">
-<img src="images/macropad.jpeg" alt="Macropad Preview" width="50%">
+<img src="images/macropad.jpeg" alt="Macropad Preview" width="40%">
 </p>
 
 ---
@@ -30,12 +30,12 @@ This repository contains all hardware schematics, firmware files, and web interf
 
 ## Hardware Setup
 
-Assemble the physical macropad according to the schematic in the repository before flashing software.
-
 <p align="center">
 <img src="Schematic/schematic.png" alt="Macropad Preview" width="67%">
 </p>
 
+
+Assemble the physical macropad according to the schematic in the repository before flashing software.
 1. Wire the switch matrix, rotary encoders, OLED display, and diodes to the Raspberry Pi Pico as specified in the schematic.
 2. Inspect all solder points to verify connectivity and prevent short circuits before plugging in the device.
 
@@ -91,8 +91,10 @@ http://127.0.0.1:5000
 ```
 5. Use the control panel to reassign keys, assign macros, and save changes directly to the macropad.
 
+(The web-app includes custom shortcuts for keys which cannot be recorded normally)
+
 <p align="center">
-<img src="images/web-app.jpeg" alt="webapp Preview" width="50%">
+<img src="images/web-app.png" alt="webapp Preview" width="76%">
 </p>
 
 ### Contributing
