@@ -28,6 +28,10 @@ This repository contains all hardware schematics, firmware files, and web interf
 
 Assemble the physical macropad according to the schematic in the repository before flashing software.
 
+<p align="center">
+<img src="Schematic/schematic.png" alt="Macropad Preview" width="67%">
+</p>
+
 1. Wire the switch matrix, rotary encoders, OLED display, and diodes to the Raspberry Pi Pico as specified in the schematic.
 2. Inspect all solder points to verify connectivity and prevent short circuits before plugging in the device.
 
